@@ -4,7 +4,7 @@
  "description": "تـم تـعـديـلـه وحـل مـشـاكـل الـنـظـام بـواسـطـة 𝑨𝒀𝑶𝑼𝑩",
  "main": "index.js",
  "scripts": {
-  "start": "node main.js",
+  "start": "node index.js",
   "login": "node login",
   "test": "node --trace-warnings --use_strict --async-stack-traces mirai"
  },

@@ -6,7 +6,7 @@ const logger = require("./utils/log");
 const express = require("express");
 
 const app = express();
-const port = process.env.PORT || 3078; 
+const port = process.env.PORT || 3000; 
 app.get("/", (req, res) => {
   res.send(`𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 𝐀𝐘𝐎𝐔𝐁`);
 });
